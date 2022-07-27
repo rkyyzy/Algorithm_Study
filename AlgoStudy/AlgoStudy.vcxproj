@@ -154,6 +154,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgoStudy.cpp" />
+    <ClCompile Include="string\kmp.cpp" />
+    <ClCompile Include="string\minimum_window_substring.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string\strings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\string">
+      <UniqueIdentifier>{d792c718-96df-4f23-8757-403501b1c431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\string">
+      <UniqueIdentifier>{b55911b3-d36d-4cbc-824f-859511ff0529}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgoStudy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="string\kmp.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\minimum_window_substring.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string\strings.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
